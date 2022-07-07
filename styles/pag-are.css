@@ -1,0 +1,49 @@
+.wrapp-pg-are {
+  margin-left: 335px;
+}
+
+.sub-02 {
+  /*   color: #ffffff;
+ */
+  width: 468px;
+}
+
+.flex-logo {
+  margin-left: 135px;
+  display: flex;
+  align-items: center;
+}
+
+.flex-logo img {
+  width: 24px;
+  margin-right: 177px;
+}
+
+.flex-logo p {
+  margin-left: 24px;
+}
+
+/* Título e setas */
+.titulo-pg-are {
+  font-size: 64px;
+  font-weight: 700;
+  margin-right: 158px;
+}
+
+.flex-titulo-are {
+  display: flex;
+  align-items: top;
+  padding-top: 24px;
+}
+
+/* Desktop img e datas */
+
+.wrapp-pg-desktop {
+  margin-left: 155px;
+}
+
+.flex-imgs {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
