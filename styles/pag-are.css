@@ -1,12 +1,18 @@
+/* Espaçamentos */
+
 .wrapp-pg-are {
   margin-left: 335px;
 }
 
-.sub-02 {
-  /*   color: #ffffff;
- */
-  width: 468px;
+/* Usar background e margin */
+.Are-pag {
+  margin-top: 40px;
+  padding-top: 128px;
+  /* width: 100%; */
+ /*  height: 400px; */
 }
+
+/* Aba 01 Who We Are */
 
 .flex-logo {
   margin-left: 135px;
@@ -20,30 +26,98 @@
 }
 
 .flex-logo p {
+  color: #ffffff;
   margin-left: 24px;
+}
+
+.flex-logo h3 {
+  color: #8b8b8b;
 }
 
 /* Título e setas */
 .titulo-pg-are {
   font-size: 64px;
   font-weight: 700;
-  margin-right: 158px;
+  margin-right: 135px;
+  color: #ffffff;
 }
 
 .flex-titulo-are {
   display: flex;
-  align-items: top;
+  align-items: left;
   padding-top: 24px;
+}
+/* ------------------------------------------------------ */
+/* Subtitulo e paragrafo*/
+
+.sub-pg-are {
+  padding-bottom: 40px;
+  color: #ffffff;
+}
+
+.paragrafo-pg-are {
+  color: #8b8b8b;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+/* Flex da segunda parte da página 02*/
+
+.flex-design-are {
+  display: flex;
+  align-items: center;
+  padding-bottom: 169px;
+  padding-top: 170px;
+}
+
+.linha-pg-are {
+  align-self: flex-start;
+  margin-right: 198px;
+  margin-left: 135px;
+}
+
+.bigest-pg-are {
+  margin-left: 100px;
+}
+
+.bigest-pg-are h3 {
+  font-size: 200px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.bigest-pg-are p {
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* -------------------------------------------------------------- */
+
+/* Teste - Position Absolute */
+
+.position-absolute {
+  position: absolute;
 }
 
 /* Desktop img e datas */
 
-.wrapp-pg-desktop {
+.deskotop-img {
   margin-left: 155px;
+  max-width: 100%;
 }
 
 .flex-imgs {
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
+  padding-top: 93px;
+  padding-left: 123px;
+}
+
+/* Background da sessão*/
+
+.fundo-pg-are {
+  background-color: #232340;
 }

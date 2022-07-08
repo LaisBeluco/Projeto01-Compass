@@ -1,0 +1,69 @@
+/* Gerais dessa sessão*/
+
+.fundo-pg-do {
+  background-color: #f7f3f8;
+}
+
+/* Título e tituluzinho hehe *-* */
+/* --------------------------------------------------- */
+.flex-logo-do {
+  margin-left: 135px;
+  display: flex;
+  align-items: center;
+}
+
+.flex-logo-do img {
+  width: 24px;
+  margin-right: 177px;
+}
+
+.flex-logo-do p {
+  color: #5468e7;
+  margin-left: 24px;
+}
+
+.flex-logo-do h3 {
+  color: #5468e7;
+}
+
+.titulo-pg-do {
+  font-size: 64px;
+  font-weight: 700;
+  margin-right: 135px;
+  color: #232340;
+}
+
+.flex-titulo-do {
+  display: flex;
+}
+/* ---------------------------------------------- End */
+/* ---------------------------------------------- */
+
+/*Cards Configuração*/
+.cards-img {
+  max-height: 576px;
+  max-width: 1170px;
+  margin: auto;
+  box-shadow: 5px 5px 70px #ece7ee;
+  border-bottom: 8px solid #f5f3f7;
+  background-color: #ffff;
+  border-radius: 48px;
+  margin-top: 148px;
+  margin-bottom: 185px;
+}
+
+.cards-img img{
+  width: 128px;
+  height: 128px;
+}
+
+.cards-img ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards-img ul li {
+  text-align: center;
+  width: 293px;
+  height: 480px;
+}

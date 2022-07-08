@@ -60,12 +60,12 @@ a {
 .conteudo-info {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
-  margin-left: 135px;
 }
 
 .conteudo-info-menu {
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
   display: flex;
 }
 
