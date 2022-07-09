@@ -7,15 +7,16 @@
   display: flex;
 }
 
-.flex-conteiner-projects{
+.flex-conteiner-projects {
   display: flex;
   margin-left: 135px;
   padding-top: 227px;
+  margin-bottom: 100px;
 }
 
 /* ====================== */
 /* ------Butões---------- */
-.button-projects{
+.button-projects {
   padding: 20px 38px;
   background-color: #5468e7;
   font-weight: bolder;
@@ -25,7 +26,7 @@
   color: white;
 }
 
-.featured-product{
+.featured-product {
   background-color: #9080ff;
   border: none;
   padding: 11px 22px;
@@ -35,7 +36,7 @@
   font-weight: 600;
 }
 
-.butao-view{
+.butao-view {
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -52,10 +53,13 @@
 /* =============================== */
 /* --------Título e Texto------------------ */
 
-.title-projects{
+.title-projects {
   font-size: 40px;
   line-height: 48px;
   font-weight: 700;
+}
+
+.title-sapiens {
   padding-top: 24px;
   padding-bottom: 32px;
 }
@@ -63,32 +67,109 @@
 /* ============================= */
 /* ---------Ajuste das imagens- */
 
-.bg-projects{
+.bg-projects {
   right: 280px;
   bottom: 40px;
   position: absolute;
   z-index: -1;
 }
 
-.img-bg-position{
+.img-bg-position {
   position: relative;
 }
 
-.female-running-projects{
+.female-running-projects {
   position: relative;
   left: -50px;
 }
 
-.shadow-projects{
+.shadow-projects {
   position: absolute;
   right: 0px;
   top: -80px;
   z-index: -2;
 }
 
-.seta-projects{
+.seta-projects {
   position: absolute;
   top: 300px;
   left: 960px;
 }
 
+/* ========================================= */
+/* ----------------Segunda parte da Página- */
+
+/* ======================================== */
+/* ------------Titulo Bento---------------- */
+
+.bento-title{
+  padding-bottom: 65px;
+}
+
+.paragrafo-bento{
+  padding-top: 40px;
+}
+
+/* ======================================= */
+/* ------------Posicionamento Bento------ */
+
+.flex-bento{
+  display: flex;
+  position: relative;
+}
+
+.bento-3d{
+  margin-left: 135px;
+  padding-top: 341px;
+}
+
+.bento-vol2{
+  margin-right: 55px;
+  position: absolute;
+  right: 0px;
+  padding-top: 46px;
+}
+
+/* --------Posicionamento Bento Vol.2 ----*/
+
+.img-computer{
+  position: relative;
+}
+
+/* .bg-bento-roxo{
+  bottom: 25px;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+ */
+.main-img{
+  top: 50px;
+  left: -160px;
+  position: absolute;
+}
+
+.seta-bento-img{
+  bottom: 60px;
+  left: 334px;
+  position: absolute;
+}
+
+/* -------Posicionamento Bento 3D----- */
+
+.img-tablet{
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.tablet-img{
+  bottom: 100px;
+  left: -5px;
+  position: absolute;
+}
+
+.seta-bento-3d{
+  bottom: 100px;
+  left: 438px;
+  position: absolute;
+}
