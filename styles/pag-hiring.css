@@ -44,8 +44,16 @@
 /* ----------------Flex Jobs------------------------------------------------ */
 
 .flex-jobs{
+  padding-top: 128px;
   display: flex;
-  background-color: #f7f4f9;
+  background-image: url(/img/layout-6/Path.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+}
+
+.background-color-jobs{
+  background-image: linear-gradient(#f5f3f7, #ffffff);
 }
 
 /* ========================================================================== */
@@ -64,6 +72,43 @@
 }
 
 .cards-jobs-flex{
-  align-items: flex-start;
+  align-items: center;
   display: flex;
+}
+
+.cards-jobs-flex .card-space{
+  margin-left: 64px;
+}
+
+.flex-title{
+  display: flex;
+}
+
+.flex-title img{
+  padding-left: 15px;
+}
+
+.card-visual .visual-card-img{
+  padding-left: 30px;
+}
+/* ----------------------Texto Cards----------------------------------------- */
+
+.cards-jobs h2{
+  line-height: 40px;
+  font-size: 32px;
+  color: #232340;
+  font-weight: 700;
+}
+
+.card-jobs p{
+  margin-bottom: 29px;
+  margin-top: 10px;
+  color: #8b8b8b;
+}
+
+.card-visual{
+  background-color: #232340;
+}
+.card-visual h2{
+  color: #ffffff;
 }

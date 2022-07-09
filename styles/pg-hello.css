@@ -1,0 +1,77 @@
+/* ========================================================================== */
+/* ------------------------Container envolvendo o conteúdo------------------ */
+
+.hello-container {
+  margin: 0 auto;
+  background-color: #5468e7;
+  border-radius: 40px;
+  width: 1296px;
+  height: 1024px;
+}
+
+/* ========================================================================== */
+/* -------------Flex segunda parte------------------------------------------- */
+
+.talk-flex {
+  display: flex;
+}
+
+/* ========================================================================== */
+/* --------------Posicionamento dos textos e Estilização--------------------- */
+
+.text-hello {
+  text-align: center;
+  padding: 128px 156px 176px 156px;
+  border-bottom: 1px solid #7686ec;
+}
+
+.text-hello h2 {
+  padding: 40px 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.text-hello p {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+.text-lets-talk {
+  font-size: 64px;
+  font-weight: 700;
+  padding-right: 118px;
+  padding-top: 120px;
+  padding-bottom: 175px;
+  padding-left: 163px;
+  color: #ffffff;
+  line-height: 72px;
+  border-right: 1px solid #7686ec;
+}
+
+.invest-cotainer{
+  padding-left: 117px;
+  padding-top: 120px;
+}
+
+.invest-cotainer .hello-bubble-img{
+width: 103px;
+height: 103px;
+}
+
+.invest-flex{
+  align-items: flex-start;
+  display: flex;
+}
+
+.invest-flex h1{
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  padding-right: 54px;
+}
