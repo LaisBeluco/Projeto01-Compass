@@ -46,7 +46,8 @@
   border-radius: 50%;
   border: none;
   position: absolute;
-  bottom: 60px;
+  margin-left: 0px;
+  margin-top: 420px;
   left: 350px;
 }
 
@@ -68,8 +69,7 @@
 /* ---------Ajuste das imagens- */
 
 .bg-projects {
-  right: 280px;
-  bottom: 40px;
+  margin-left: 320px;
   position: absolute;
   z-index: -1;
 }
@@ -102,28 +102,28 @@
 /* ======================================== */
 /* ------------Titulo Bento---------------- */
 
-.bento-title{
+.bento-title {
   padding-bottom: 65px;
 }
 
-.paragrafo-bento{
+.paragrafo-bento {
   padding-top: 40px;
 }
 
 /* ======================================= */
 /* ------------Posicionamento Bento------ */
 
-.flex-bento{
+.flex-bento {
   display: flex;
   position: relative;
 }
 
-.bento-3d{
+.bento-3d {
   margin-left: 135px;
   padding-top: 341px;
 }
 
-.bento-vol2{
+.bento-vol2 {
   margin-right: 55px;
   position: absolute;
   right: 0px;
@@ -132,7 +132,7 @@
 
 /* --------Posicionamento Bento Vol.2 ----*/
 
-.img-computer{
+.img-computer {
   position: relative;
 }
 
@@ -143,13 +143,13 @@
   z-index: -1;
 }
  */
-.main-img{
+.main-img {
   top: 50px;
   left: -160px;
   position: absolute;
 }
 
-.seta-bento-img{
+.seta-bento-img {
   bottom: 60px;
   left: 334px;
   position: absolute;
@@ -157,19 +157,44 @@
 
 /* -------Posicionamento Bento 3D----- */
 
-.img-tablet{
+.img-tablet {
   padding-bottom: 40px;
   position: relative;
 }
 
-.tablet-img{
+.tablet-img {
   bottom: 100px;
   left: -5px;
   position: absolute;
 }
 
-.seta-bento-3d{
+.seta-bento-3d {
   bottom: 100px;
   left: 438px;
   position: absolute;
+}
+
+/* -------Posicionamento Sapiens ------- */
+
+.seta-bento-sapiens {
+  margin-left: -37px;
+  margin-bottom: 50px;
+}
+
+/* --------Posiocionamento Vol. 3------ */
+
+.seta-bento-vol3 {
+  margin-left: -37px;
+  margin-bottom: 50px;
+}
+
+.music-img {
+  padding-top: 70px;
+  position: absolute;
+}
+
+/* -----------Texto segunda pterceira parte-- */
+
+.bento-title-sapiens{
+  padding-bottom: 40px;
 }

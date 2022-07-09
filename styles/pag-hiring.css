@@ -1,0 +1,69 @@
+/* ========================================================================== */
+/* -----------------Scroll e textos----------------------------------------- */
+
+.scroll-hiring {
+  font-size: 18px;
+  margin-top: 72px;
+  display: flex;
+  align-items: center;
+}
+
+.scroll-hiring h1 {
+  margin-left: 16px;
+  color: #8b8b8b8b;
+}
+
+.flex-logo-hiring {
+  margin-left: 135px;
+  display: flex;
+  align-items: center;
+}
+
+.flex-logo-hiring img {
+  width: 24px;
+  margin-right: 76px;
+}
+
+.flex-logo-hiring p {
+  color: #5468e7;
+  margin-left: 24px;
+  font-weight: 600;
+}
+
+.flex-logo-hiring h3 {
+  color: #5468e7;
+  font-weight: 600;
+}
+
+.wrapp-pg-hiring {
+  padding-top: 24px;
+  margin-left: 235px;
+}
+
+/* ========================================================================== */
+/* ----------------Flex Jobs------------------------------------------------ */
+
+.flex-jobs{
+  display: flex;
+  background-color: #f7f4f9;
+}
+
+/* ========================================================================== */
+/* --------------------Cards Jobs-------------------------------------------- */
+
+.cards-jobs{
+  margin-left: 135px;
+}
+
+.card-jobs{
+  width: 568px;
+  height: 247px;
+  border-radius: 40px;
+  margin-bottom: 21px;
+  background-color: #ffffff;
+}
+
+.cards-jobs-flex{
+  align-items: flex-start;
+  display: flex;
+}

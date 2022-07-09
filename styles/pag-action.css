@@ -1,0 +1,78 @@
+/* ======================================================================== */
+/* ------------------------Posicionamento das Imagens---------------------- */
+
+.bg-azul {
+  margin-top: 156px;
+  margin-left: 72px;
+}
+
+.action-position {
+  margin-top: 100px;
+  margin-bottom: 158px;
+  position: relative;
+}
+
+.phone-action-img {
+  margin-top: 108px;
+  margin-left: 135px;
+  left: 0;
+  position: absolute;
+}
+
+.mask-action-img {
+  margin-right: 50px;
+  margin-top: 156px;
+  right: 0;
+  position: absolute;
+}
+
+/* ===================Posicionamento de Texto=================================*/
+
+.flex-action{
+  margin-left: 235px;
+  top: 36%;
+  position: absolute;
+  display: flex;
+}
+
+.flex-action img{
+  align-self: flex-start;
+}
+
+.flex-action-logo{
+  color: #ffffff;
+  font-weight: 600;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+}
+
+.flex-action-logo h3{
+  padding-right: 24px;
+}
+
+.conteudo-action{
+  margin-left: 462px;
+}
+
+/* =====================Estilização do texto================================= */
+.title-action{
+font-size: 64px;
+font-weight: 700;
+color: #ffffff;
+line-height: 72px;
+margin-top: 24px;
+margin-bottom: 72px;
+}
+
+/* =======================Butão============================================= */
+
+.button-apply{
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #5468e7;
+  padding: 20px 56px;
+}
+
