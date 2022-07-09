@@ -42,28 +42,41 @@
 }
 
 .text-lets-talk {
-  font-size: 64px;
+  display: flex;
+  height: 508px;
+  width: 50%;
+  font-size: 3.5em;
   font-weight: 700;
-  padding-right: 118px;
-  padding-top: 120px;
-  padding-bottom: 175px;
-  padding-left: 163px;
+  align-items: center;
+  justify-content: center;
   color: #ffffff;
   line-height: 72px;
   border-right: 1px solid #7686ec;
 }
 
 .invest-cotainer{
-  padding-left: 117px;
-  padding-top: 120px;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 508px;
+  display: flex;
+  flex-direction: column;
 }
 
+.invest{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
 .invest-cotainer .hello-bubble-img{
+  align-self: flex-start;
 width: 103px;
 height: 103px;
 }
 
 .invest-flex{
+  justify-content: space-between;
   align-items: flex-start;
   display: flex;
 }
@@ -73,5 +86,4 @@ height: 103px;
   font-size: 32px;
   font-weight: 700;
   line-height: 40px;
-  padding-right: 54px;
 }

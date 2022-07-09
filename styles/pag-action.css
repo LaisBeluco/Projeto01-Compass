@@ -1,35 +1,17 @@
 /* ======================================================================== */
 /* ------------------------Posicionamento das Imagens---------------------- */
 
-.bg-azul {
-  margin-top: 156px;
-  margin-left: 72px;
-}
-
 .action-position {
   margin-top: 100px;
   margin-bottom: 158px;
   position: relative;
 }
 
-.phone-action-img {
-  margin-top: 108px;
-  margin-left: 135px;
-  left: 0;
-  position: absolute;
-}
-
-.mask-action-img {
-  margin-right: 50px;
-  margin-top: 156px;
-  right: 0;
-  position: absolute;
-}
 
 /* ===================Posicionamento de Texto=================================*/
 
 .flex-action{
-  margin-left: 235px;
+  margin-left: 16.31%;
   top: 36%;
   position: absolute;
   display: flex;
@@ -75,4 +57,5 @@ margin-bottom: 72px;
   color: #5468e7;
   padding: 20px 56px;
 }
+
 

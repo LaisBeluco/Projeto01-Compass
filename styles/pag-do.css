@@ -75,7 +75,10 @@
   height: 560px;
   color: #ffffff;
 }
-
+.card:hover p
+{
+  color: white;
+}
 .cards-img img {
   width: 128px;
   height: 128px;
@@ -94,8 +97,4 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-}
-
-.anos-img {
-  padding-right: 154px;
 }
