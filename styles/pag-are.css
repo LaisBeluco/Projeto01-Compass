@@ -11,7 +11,7 @@
   margin-top: 40px;
   padding-top: 128px;
   z-index: 1;
- /*  height: 400px; */
+  /*  height: 400px; */
 }
 
 /* Aba 01 Who We Are */
@@ -40,11 +40,11 @@
 .titulo-pg-are {
   font-size: 64px;
   font-weight: 700;
-  margin-right: 135px;
   color: #ffffff;
 }
 
 .flex-titulo-are {
+  justify-content: space-between;
   display: flex;
   align-items: left;
 }
@@ -103,7 +103,7 @@
   z-index: 3;
 }
 
-.background-img{
+.background-img {
   z-index: -1;
   position: absolute;
   top: -30px;
@@ -122,8 +122,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 93px;
-  padding-left: 8%;
+  margin: auto;
 }
 
 .anos-img {
@@ -141,7 +140,7 @@
 /* ----------------------------------------------- */
 /* ---------------------Detalhes------------------- */
 
-.detalhe{
+.detalhe {
   width: 24px;
   height: 4px;
   background-color: #ffffff;
