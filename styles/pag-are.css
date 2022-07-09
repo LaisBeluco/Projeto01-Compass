@@ -1,6 +1,7 @@
 /* Espaçamentos */
 
 .wrapp-pg-are {
+  padding-top: 24px;
   margin-left: 335px;
 }
 
@@ -8,6 +9,7 @@
 .Are-pag {
   margin-top: 40px;
   padding-top: 128px;
+  z-index: 1;
   /* width: 100%; */
  /*  height: 400px; */
 }
@@ -45,7 +47,6 @@
 .flex-titulo-are {
   display: flex;
   align-items: left;
-  padding-top: 24px;
 }
 /* ------------------------------------------------------ */
 /* Subtitulo e paragrafo*/
@@ -97,8 +98,16 @@
 
 /* Teste - Position Absolute */
 
-.position-absolute {
+.position-relative {
+  position: relative;
+  z-index: 3;
+}
+
+.background-img{
+  z-index: -1;
   position: absolute;
+  top: -30px;
+  right: 0;
 }
 
 /* Desktop img e datas */
@@ -120,4 +129,19 @@
 
 .fundo-pg-are {
   background-color: #232340;
+  position: relative;
+  z-index: 0;
+}
+
+/* ----------------------------------------------- */
+/* ---------------------Detalhes------------------- */
+
+.detalhe{
+  width: 24px;
+  height: 4px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  position: relative;
+  top: 127px;
+  left: -62px;
 }

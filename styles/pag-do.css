@@ -1,7 +1,8 @@
 /* Gerais dessa sessão*/
 
 .fundo-pg-do {
-  background-color: #f7f3f8;
+  padding-top: 152px;
+  background-image: linear-gradient(#f5f3f7, #ffffff);
 }
 
 /* Título e tituluzinho hehe *-* */
@@ -20,10 +21,16 @@
 .flex-logo-do p {
   color: #5468e7;
   margin-left: 24px;
+  font-weight: 600;
 }
 
 .flex-logo-do h3 {
   color: #5468e7;
+  font-weight: 600;
+}
+
+.flex-titulo-do {
+  display: flex;
 }
 
 .titulo-pg-do {
@@ -33,37 +40,62 @@
   color: #232340;
 }
 
-.flex-titulo-do {
-  display: flex;
-}
 /* ---------------------------------------------- End */
 /* ---------------------------------------------- */
 
 /*Cards Configuração*/
 .cards-img {
-  max-height: 576px;
-  max-width: 1170px;
-  margin: auto;
+  justify-content: center;
+  display: flex;
   box-shadow: 5px 5px 70px #ece7ee;
   border-bottom: 8px solid #f5f3f7;
-  background-color: #ffff;
   border-radius: 48px;
+  margin: 0 auto;
   margin-top: 148px;
   margin-bottom: 185px;
+  height: 480px;
 }
 
-.cards-img img{
+.card {
+  max-width: 1170px;
+  width: 293px;
+}
+
+.card p {
+  padding-top: 40px;
+  line-height: 32px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #5468e7;
+}
+
+.card:hover {
+  background-color: #5468e7;
+  border-radius: 48px;
+  height: 560px;
+  color: #ffffff;
+}
+
+.cards-img img {
   width: 128px;
   height: 128px;
 }
 
-.cards-img ul {
+.cards-img {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1170px;
 }
 
-.cards-img ul li {
+.cards-img li {
+  display: flex;
   text-align: center;
-  width: 293px;
-  height: 480px;
+  justify-content: center;
+  align-items: center;
+}
+
+.anos-img {
+  padding-right: 154px;
 }

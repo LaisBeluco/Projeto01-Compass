@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="/styles/style.css">
   <link rel="stylesheet" href="/styles/pag-are.css">
   <link rel="stylesheet" href="/styles/pag-do.css">
+  <link rel="stylesheet" href="/styles/pag-archi.css">
+  <link rel="stylesheet" href="/styles/pag-projects.css">
 </head>
 
 <body>
@@ -60,15 +62,15 @@
     </section>
   </main>
 
-
-  <!-- Começo da página 2 -->
+  <!-- ----------------------------------------------------- -->
+  <!------------------- Começo da página 2 ---------------->
 
   <main class="fundo-pg-are">
-    <section>
-      <div class="position-absolute Are-pag">
+    <section class="position-absolute">
+      <div class="Are-pag">
         <div class="flex-logo">
           <img src="/img/logo symbol.png" alt="">
-          <h3>01</h3>
+          <h3>01.</h3>
           <p>Who We Are</p>
         </div>
         <div class="wrapp-pg-are">
@@ -81,8 +83,9 @@
           </div>
         </div>
         <div class="flex-imgs">
-          <img src="/img/layout-2/years.png" class="anos-img" alt="">
-          <img src="/img/layout-2/[ 4 ] – Desktop.svg" alt="">
+          <div class="detalhe"></div>
+          <img src="/img/layout-2/years.png" alt="" class="anos-img">
+          <img src="/img/layout-2/[ 4 ] – Desktop.png" alt="">
         </div>
       </div>
       <img src="/img/layout-2/bg for 3d.png" alt="" class="background-img">
@@ -103,16 +106,16 @@
     </section>
   </main>
 
-
-  <!-- Começo da página três -->
+  <!-- ------------------------------------------------------ -->
+  <!------------- Começo da página três ---------------------->
 
   <main class="fundo-pg-do">
     <section>
       <div class="Do-pg">
         <div class="flex-logo-do">
           <img src="/img/logo symbol.png" alt="">
-          <h3>01</h3>
-          <p>Who We Are</p>
+          <h3>02.</h3>
+          <p>Who We Do</p>
         </div>
         <div class="wrapp-pg-are">
           <div class="flex-titulo-do">
@@ -125,39 +128,89 @@
         </div>
 
         <!-- Cards página 03 -->
-        <nav class="cards-img">
-          <ul>
-            <li>
-              <div>
-                <a href="">
-                  <img src="/img/layout-3/icon.png" alt="">
-                  <h1>Strategy</h1>
-                </a>
-              </div>
+        <article>
+          <ul class="cards-img">
+            <li class="card">
+              <a href="">
+                <img src="/img/layout-3/icon.png" alt="">
+                <p>Strategy</p>
+              </a>
             </li>
-            <li><a href="">
+            <li class="card">
+              <a href="">
                 <img src="/img/layout-3/icon (1).png" alt="">
                 <p>Branding</p>
               </a>
             </li>
-            <li><a href="">
+            <li class="card">
+              <a href="">
                 <img src="/img/layout-3/icon (2).png" alt="">
                 <p>Interactive</p>
               </a>
             </li>
-            <li><a href="">
+            <li class="card">
+              <a href="">
                 <img src="/img/layout-3/icon (3).png" alt="">
                 <p>Communicate</p>
               </a>
             </li>
           </ul>
-        </nav>
-
+        </article>
 
       </div>
     </section>
   </main>
 
+
+
+  <!-- *****Sessão "Achievement" fazer um complento com a página 03**** -->
+  <section class="achievement">
+    <div class="flex-phone">
+      <div class="img-phone">
+        <div>
+          <img src="/img/layout-3/[ 3 ] – Phone.png" alt="" class="phone">
+          <img src="/img/layout-3/Oval.png" alt="" class="oval">
+        </div>
+        <img src="/img/layout-3/Pagination.png" alt="" class="seletores">
+      </div>
+      <div class="text-achievement">
+        <div>
+          <div class="flex-achievement-do">
+            <img src="/img/logo symbol.png" alt="">
+            <h3>03.</h3>
+            <p>Achievement</p>
+          </div>
+          <div class="wrapp-pg-achievement">
+            <div class="sub-titulo-do">
+              <h2 class="subtitulo sub-pg-do">A design team building a curated <br> marketplace for UI designers.</h2>
+            </div>
+          </div>
+          <div class="bigest-pg-do">
+            <h3>68</h3>
+            <p> &#128526; Successful Projects</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- --------------------------------------------------------- -->
+  <!--------------- Começo da Página 04 ------------------------->
+  <main>
+    <section>
+      <div class="flex-logo-do">
+        <img src="/img/logo symbol.png" alt="">
+        <h3>04.</h3>
+        <p>Famous Projects</p>
+      </div>
+      <div class="wrapp-pg-are">
+        <div class="flex-titulo-projects">
+          <h1 class="titulo-pg-do">Our Partnerships</h1>
+            <button class="button-projects">Contact Us</button>
+        </div>
+        <p class="paragrafo-pg-are">Agency is a full-service agency, busy designing and building <br> beautiful digital products, brands, and experiences.</p>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>

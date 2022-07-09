@@ -1,0 +1,94 @@
+/* =============================== */
+/* -----------Espaçamento-------- */
+
+.achievement{
+  padding-bottom: 134px;
+}
+
+/* ================================ */
+/* -------Flex telefone e texto---- */
+
+.flex-phone{
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  padding-bottom: 134px;
+}
+
+.img-phone{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 11;
+}
+
+.oval{
+  top: 140px;
+  left: -40px;
+  position: absolute;
+  z-index: -1;
+}
+
+.seletores{
+  bottom: -115px;
+  position: absolute;
+  margin-right: 70px;
+}
+/* ================================ */
+/* --------Phone------------------ */
+
+
+/* ============================= */
+/* ----------Inicio------------ */
+
+.flex-achievement-do{
+  display: flex;
+  align-items: center;
+}
+
+.flex-achievement-do img {
+  width: 24px;
+  margin-right: 75px;
+}
+
+.flex-achievement-do h3{
+  color: #8b8b8b;
+  margin-left: 24px;
+  font-weight: 600;
+  margin-right: 24px;
+}
+
+/* ========================== */
+/* --------Texto Estrutura-- */
+
+.flex-achievement-do{
+  font-weight: 600;
+}
+
+.text-achievement{
+  align-items: center;
+  display: flex;
+  margin-left: 150px;
+}
+
+.sub-pg-do{
+  padding-top: 40px;
+}
+
+.bigest-pg-do{
+  padding-top: 64px;
+}
+
+.bigest-pg-do h3{
+  font-size: 200px;
+  font-weight: 600;
+  color: #5468e7;
+}
+
+.bigest-pg-do p{
+  padding-top: 31px;
+  font-size: 24px;
+  font-weight: 600;
+}
