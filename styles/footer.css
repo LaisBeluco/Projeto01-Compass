@@ -1,0 +1,77 @@
+/* ========================================================================== */
+/* ----------------------Footer---------------------------------------------- */
+
+.footer-folio {
+  padding-top: 128px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer-folio p {
+  padding: 48px 0;
+  font-size: 18px;
+  line-height: 32px;
+  color: #8b8b8b;
+  text-align: center;
+}
+
+.footer-folio-footer li {
+  list-style: none;
+}
+
+/* ========================================================================== */
+/* ----------------Home footer ---------------------------------------------- */
+
+.footer-folio-footer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+
+.footer-folio-footer li {
+  margin: auto;
+  text-align: center;
+}
+
+.footer-folio-footer li a {
+  text-decoration: none;
+  color: #8b8b8b8b;
+}
+
+.footer-folio-footer a:hover {
+  color: #5468e7;
+}
+
+/* ========================================================================== */
+/* ------------------Footer Footer------------------------------------------- */
+
+.flex-redes {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.flex-redes li {
+  margin-left: 40px;
+}
+
+.footer-footer {
+  border-top: 1px solid #d8d8d8;
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  height: 51px;
+  width: 81.25%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.footer-footer p{
+  color: #8b8b8b;
+}
+
+.follow-us{
+  color: #5468e7;
+}
