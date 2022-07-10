@@ -6,9 +6,16 @@
   margin-left: 23.26%;
 }
 
+.Are-inicio-pg {
+  width: 80.14%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
+
 /* Usar background e margin */
 .Are-pag {
-  margin-top: 40px;
   padding-top: 128px;
   z-index: 1;
   /*  height: 400px; */
@@ -16,8 +23,19 @@
 
 /* Aba 01 Who We Are */
 
+.flex-logo-text-img {
+  justify-content: space-between;
+  align-items: center;
+  width: 68.61%;
+  display: flex;
+}
+
+.Are-inicio-pg .logo-img {
+  width: 24px;
+  height: 24px;
+}
+
 .flex-logo {
-  margin-left: 135px;
   display: flex;
   align-items: center;
 }
@@ -38,6 +56,7 @@
 
 /* Título e setas */
 .titulo-pg-are {
+  padding-top: 24px;
   font-size: 64px;
   font-weight: 700;
   color: #ffffff;
@@ -75,11 +94,6 @@
 .linha-pg-are {
   align-self: flex-start;
   margin-right: 198px;
-  margin-left: 135px;
-}
-
-.bigest-pg-are {
-  margin-left: 100px;
 }
 
 .bigest-pg-are h3 {
@@ -92,6 +106,13 @@
   font-size: 24px;
   text-align: center;
   color: #ffffff;
+}
+
+.text-are-designs {
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  width: 81.25%;
 }
 
 /* -------------------------------------------------------------- */
@@ -118,15 +139,9 @@
 }
 
 .flex-imgs {
-  width: 90%;
   display: flex;
-  justify-content: center;
   align-items: center;
   margin: auto;
-}
-
-.anos-img {
-  padding-right: 10.7%;
 }
 
 /* Background da sessão*/
@@ -138,14 +153,21 @@
 }
 
 /* ----------------------------------------------- */
-/* ---------------------Detalhes------------------- */
+/* ---------------------Ajuste das imagens------------------- */
 
-.detalhe {
-  width: 24px;
-  height: 4px;
-  background-color: #ffffff;
-  border-radius: 2px;
-  position: relative;
-  top: 127px;
-  left: -62px;
+.imgs-are {
+  align-items: center;
+  width: 87.15%;
+  margin: auto;
+  display: flex;
+}
+
+/* .flex-anos-img {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+ */
+.anos-img {
+  margin-right: 154px;
 }
