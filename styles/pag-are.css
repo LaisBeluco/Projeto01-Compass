@@ -8,6 +8,8 @@
 
 .Are-inicio-pg {
   padding-top: 128px;
+  padding-bottom: 93px;
+
   width: 81.25%;
   display: flex;
   margin: auto;
@@ -52,7 +54,7 @@
   color: #8b8b8b;
 }
 
-.logo-display-img{
+.logo-display-img {
   width: 15.04%;
   display: flex;
 }
@@ -71,7 +73,7 @@
   align-items: left;
 }
 
-.setas-are{
+.setas-are {
   align-self: center;
 }
 /* ------------------------------------------------------ */
@@ -92,18 +94,21 @@
 /* Flex da segunda parte da página 02*/
 
 .flex-design-are {
+  width: 81.25%;
   display: flex;
+  margin: auto;
   align-items: center;
   padding-bottom: 169px;
   padding-top: 170px;
 }
 
 .linha-pg-are {
-  align-self: flex-start;
-  margin-right: 198px;
+  width: 13.88%;
+  display: flex;
+  align-items: flex-start;
 }
 
-.bigest-pg-are{
+.bigest-pg-are {
   justify-content: center;
   align-items: center;
   width: 34.35%;
@@ -172,7 +177,7 @@
 
 .imgs-are {
   width: 87.15%;
-  margin: 93px auto 0 0;
+  margin: 0 0 0 0;
   align-items: center;
   display: flex;
 }
@@ -187,4 +192,9 @@
 .anos-are-img {
   display: flex;
   width: 13.81%;
+}
+
+.flex-desktop-img{
+  display: flex;
+  width: 77.29%;
 }

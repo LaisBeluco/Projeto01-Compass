@@ -2,6 +2,8 @@
 /* -----------Espaçamento-------- */
 
 .achievement{
+  width: 81.25%;
+  margin: auto;
   padding-bottom: 134px;
 }
 
