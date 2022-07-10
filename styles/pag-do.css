@@ -1,14 +1,12 @@
 /* Gerais dessa sessão*/
 
 .fundo-pg-do {
-  padding-top: 152px;
   background-image: linear-gradient(#f5f3f7, #ffffff);
 }
 
 /* Título e tituluzinho hehe *-* */
 /* --------------------------------------------------- */
 .flex-logo-do {
-  margin-left: 135px;
   display: flex;
   align-items: center;
 }
@@ -30,13 +28,13 @@
 }
 
 .flex-titulo-do {
+  padding-top: 24px;
   display: flex;
 }
 
 .titulo-pg-do {
   font-size: 64px;
   font-weight: 700;
-  margin-right: 135px;
   color: #232340;
 }
 

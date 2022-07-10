@@ -7,16 +7,14 @@
 }
 
 .Are-inicio-pg {
-  width: 80.14%;
-  justify-content: space-between;
-  align-items: center;
+  padding-top: 128px;
+  width: 81.25%;
   display: flex;
   margin: auto;
 }
 
 /* Usar background e margin */
 .Are-pag {
-  padding-top: 128px;
   z-index: 1;
   /*  height: 400px; */
 }
@@ -54,6 +52,11 @@
   color: #8b8b8b;
 }
 
+.logo-display-img{
+  width: 15.04%;
+  display: flex;
+}
+
 /* Título e setas */
 .titulo-pg-are {
   padding-top: 24px;
@@ -66,6 +69,10 @@
   justify-content: space-between;
   display: flex;
   align-items: left;
+}
+
+.setas-are{
+  align-self: center;
 }
 /* ------------------------------------------------------ */
 /* Subtitulo e paragrafo*/
@@ -94,6 +101,14 @@
 .linha-pg-are {
   align-self: flex-start;
   margin-right: 198px;
+}
+
+.bigest-pg-are{
+  justify-content: center;
+  align-items: center;
+  width: 34.35%;
+  display: flex;
+  flex-direction: column;
 }
 
 .bigest-pg-are h3 {
@@ -140,8 +155,8 @@
 
 .flex-imgs {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin: auto;
 }
 
 /* Background da sessão*/
@@ -156,18 +171,20 @@
 /* ---------------------Ajuste das imagens------------------- */
 
 .imgs-are {
-  align-items: center;
   width: 87.15%;
-  margin: auto;
+  margin: 93px auto 0 0;
+  align-items: center;
   display: flex;
 }
 
-/* .flex-anos-img {
+.flex-anos-img {
+  width: 9.37%;
   justify-content: center;
   align-items: center;
   display: flex;
 }
- */
-.anos-img {
-  margin-right: 154px;
+
+.anos-are-img {
+  display: flex;
+  width: 13.81%;
 }
