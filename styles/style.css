@@ -12,7 +12,7 @@
 
 body {
   font-family: "Display", sans-serif;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
 }
 
@@ -21,10 +21,18 @@ a {
   text-decoration: none;
 }
 
-img{
+img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+
+/* =================================================================================== */
+/* -----------------------Container - Flex-------------------------------------------- */
+
+.text-info-stand {
+  display: flex;
+  flex-direction: column;
 }
 
 .container-01 {
@@ -41,10 +49,11 @@ img{
 /* =============================================================== */
 /* ------------------Menu Folio---------------------------------- */
 
-
 .menu-folio {
   height: 64px;
-  margin: 54px 72px;
+  padding-top: 54px;
+  padding-bottom: 54px;
+  margin: 0px 72px;
   /* padding: 0 4px; */
   display: flex;
   justify-content: space-between;
@@ -59,8 +68,7 @@ img{
   color: #5468e7;
 }
 
-
-.menu-folio-menu li{
+.menu-folio-menu li {
   display: flex;
   margin-left: 54px;
 }
@@ -86,10 +94,6 @@ img{
 }
 
 .conteudo-info {
-  margin: auto;
-  display: flex;
-  /* justify-content: center; */
-  padding-bottom: 80px;
   position: relative;
   margin-bottom: 80px;
 }
@@ -97,8 +101,9 @@ img{
 .conteudo-info-menu {
   width: 82.98%;
   margin: auto;
-  align-items: center;
+  justify-content: space-between;
   display: flex;
+  position: relative;
 }
 
 .ponto {
@@ -114,8 +119,6 @@ img{
   right: -6px;
   position: relative;
 }
-
-
 
 .menu-folio-menu li a {
   text-decoration: none;
@@ -144,9 +147,10 @@ img{
 
 .img-hero {
   max-width: 100%;
+  z-index: 2;
 }
 .img-bg {
-  z-index: -1;
+  z-index: 1;
   top: -20px;
   right: 30px;
   position: absolute;
@@ -195,13 +199,24 @@ img{
 /* =============================================================================== */
 /* -------------------Linhas----------------------------------------------------- */
 
-.linha-do{
+/* =========================================================================== */
+/* ----------------------------Linha Header---------------------------------- */
+
+.background-linha-header {
+  background-image: url(/img/line-1.png);
+  background-repeat: no-repeat;
+  background-position: 300px -19px; 
+}
+
+/* -------------------------------------------------------------------------- */
+
+.linha-do {
   background-image: url(/img/layout-3/line\ 2.png);
   background-repeat: no-repeat;
   background-position: 150px 0px;
 }
 
-.linha-do-achi{
+.linha-do-achi {
   background-image: url(/img/layout-3/line\ 1.png);
   background-repeat: no-repeat;
   background-position-y: 900px;

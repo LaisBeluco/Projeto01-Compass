@@ -12,9 +12,8 @@
 /* ===================Posicionamento de Texto=================================*/
 
 .flex-action{
-  justify-content: space-between;
-  width: 60.72%;
-  top: 240px;
+  justify-content: center;
+  top: 190px;
   left: 220px;
   position: absolute;
   display: flex;
