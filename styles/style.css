@@ -38,10 +38,14 @@ img{
   background-position-x: 255px;
 }
 
+/* =============================================================== */
+/* ------------------Menu Folio---------------------------------- */
+
+
 .menu-folio {
   height: 64px;
-  margin: 0px 72px;
-  padding: 64px 0px;
+  margin: 54px 72px;
+  /* padding: 0 4px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,6 +59,24 @@ img{
   color: #5468e7;
 }
 
+
+.menu-folio-menu li{
+  display: flex;
+  margin-left: 54px;
+}
+
+/* -----------------------------Position Fixed-------------------- */
+
+/* .menu-folio{
+  background: white;
+  width: 90%;
+  position: fixed;
+  z-index: 10;
+  border-radius: 10px;
+} */
+
+/* -------------------------------------------------------------- */
+
 .folio-logo li a {
   margin-left: 16px;
   font-size: 30px;
@@ -64,17 +86,17 @@ img{
 }
 
 .conteudo-info {
-  width: 81.25%;
   margin: auto;
   display: flex;
   /* justify-content: center; */
   padding-bottom: 80px;
+  position: relative;
+  margin-bottom: 80px;
 }
 
 .conteudo-info-menu {
-  width: 81.25%;
+  width: 82.98%;
   margin: auto;
-  justify-content: center;
   align-items: center;
   display: flex;
 }
@@ -111,7 +133,6 @@ img{
 }
 
 .titulo-folio {
-  width: 467px;
   color: #232340;
 }
 
@@ -123,21 +144,16 @@ img{
 
 .img-hero {
   max-width: 100%;
-  position: relative;
-  right: 250px;
 }
-
 .img-bg {
   z-index: -1;
-  right: 150px;
+  top: -20px;
+  right: 30px;
   position: absolute;
 }
 
-
-
 .text-pd {
   margin-top: 40px;
-  width: 406px;
   line-height: 32px;
 }
 
@@ -174,4 +190,20 @@ img{
 .scroll h1 {
   margin-left: 16px;
   color: #8b8b8b8b;
+}
+
+/* =============================================================================== */
+/* -------------------Linhas----------------------------------------------------- */
+
+.linha-do{
+  background-image: url(/img/layout-3/line\ 2.png);
+  background-repeat: no-repeat;
+  background-position: 150px 0px;
+}
+
+.linha-do-achi{
+  background-image: url(/img/layout-3/line\ 1.png);
+  background-repeat: no-repeat;
+  background-position-y: 900px;
+  background-position-x: 1000px;
 }

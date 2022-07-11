@@ -170,8 +170,8 @@ font-weight: 600;
 /* ------------Posicionamento Bento------ */
 
 .flex-bento {
+  justify-content: space-between;
   display: flex;
-  position: relative;
 }
 
 .bento-3d {
@@ -181,7 +181,6 @@ font-weight: 600;
 
 .bento-vol2 {
   margin-right: 55px;
-  position: absolute;
   right: 0px;
   padding-top: 46px;
 }
