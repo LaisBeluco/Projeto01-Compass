@@ -2,8 +2,9 @@
 /* ------------------------Posicionamento das Imagens---------------------- */
 
 .action-position {
-  margin-top: 100px;
-  margin-bottom: 158px;
+  display: flex;
+  width: 90%;
+  margin: auto;
   position: relative;
 }
 
@@ -11,8 +12,10 @@
 /* ===================Posicionamento de Texto=================================*/
 
 .flex-action{
-  margin-left: 16.31%;
-  top: 36%;
+  justify-content: space-between;
+  width: 60.72%;
+  top: 240px;
+  left: 220px;
   position: absolute;
   display: flex;
 }
@@ -33,9 +36,6 @@
   padding-right: 24px;
 }
 
-.conteudo-action{
-  margin-left: 462px;
-}
 
 /* =====================Estilização do texto================================= */
 .title-action{

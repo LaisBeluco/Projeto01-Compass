@@ -13,57 +13,54 @@
   color: #8b8b8b8b;
 }
 
-.flex-logo-hiring {
-  margin-left: 135px;
+
+.Jobs-inicio-pg {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
-.flex-logo-hiring img {
+.logo-display-img-jobs{
+  display: flex;
+  width: 19.92%;
   width: 24px;
-  margin-right: 76px;
+  height: 24px;
 }
 
-.flex-logo-hiring p {
-  color: #5468e7;
-  margin-left: 24px;
-  font-weight: 600;
-}
-
-.flex-logo-hiring h3 {
-  color: #5468e7;
-  font-weight: 600;
-}
-
-.wrapp-pg-hiring {
-  padding-top: 24px;
-  margin-left: 235px;
-}
 
 /* ========================================================================== */
 /* ----------------Flex Jobs------------------------------------------------ */
 
-.flex-jobs{
+.flex-jobs {
   padding-top: 128px;
-  display: flex;
   background-image: url(/img/layout-6/Path.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: top;
 }
 
-.background-color-jobs{
+.background-color-jobs {
   background-image: linear-gradient(#f5f3f7, #ffffff);
+}
+
+.container-jobs {
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+  width: 81.25%;
+}
+
+.jobs-inicio-pg-logo{
+  display: flex;
 }
 
 /* ========================================================================== */
 /* --------------------Cards Jobs-------------------------------------------- */
 
-.cards-jobs{
-  margin-left: 135px;
+.cards-jobs {
+  padding-top: 128px;
 }
 
-.card-jobs{
+.card-jobs {
   width: 568px;
   height: 247px;
   border-radius: 40px;
@@ -71,44 +68,44 @@
   background-color: #ffffff;
 }
 
-.cards-jobs-flex{
+.cards-jobs-flex {
   align-items: center;
   display: flex;
 }
 
-.cards-jobs-flex .card-space{
+.cards-jobs-flex .card-space {
   margin-left: 64px;
 }
 
-.flex-title{
+.flex-title {
   display: flex;
 }
 
-.flex-title img{
+.flex-title img {
   padding-left: 15px;
 }
 
-.card-visual .visual-card-img{
+.card-visual .visual-card-img {
   padding-left: 30px;
 }
 /* ----------------------Texto Cards----------------------------------------- */
 
-.cards-jobs h2{
+.cards-jobs h2 {
   line-height: 40px;
   font-size: 32px;
   color: #232340;
   font-weight: 700;
 }
 
-.card-jobs p{
+.card-jobs p {
   margin-bottom: 29px;
   margin-top: 10px;
   color: #8b8b8b;
 }
 
-.card-visual{
+.card-visual {
   background-color: #232340;
 }
-.card-visual h2{
+.card-visual h2 {
   color: #ffffff;
 }
