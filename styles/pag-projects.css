@@ -7,32 +7,50 @@
   display: flex;
 }
 
-.container-projects-text{
-  align-items: center;
-  justify-content: center;
-  margin: auto;
+.container-projects-text {
   display: flex;
-  width: 48.19%;
+  justify-content: space-between;
+  z-index: 2;
+  width: 80%;
 }
 
-.container-projects{
-  align-items: flex-end;
-  margin: auto;
+.container-projects {
   display: flex;
+  margin-left: 10%;
 }
 
 .flex-conteiner-projects {
-  width: 90.62%;
+  background-image: url(/img/layout-4/Female\ Running\ Colorful\ 2@2x\ Copy.png);
+  background-repeat: no-repeat;
+  background-position-y: -130px;
+  background-position-x: 100%;
+  width: 100%;
   position: relative;
+  display: flex;
+  padding-top: 139px;
+  height: 800px;
+}
+
+.project-inicio-female-running {
+  background-image: url(/img/layout-4/Component\ 1.png);
+  background-repeat: no-repeat;
+}
+
+.flex-img-projects {
+  position: relative;
+}
+
+.project-inicio-pg {
+  padding-top: 128px;
+  width: 81.25%;
   display: flex;
   margin: auto;
 }
 
-.flex-img-projects{
-  position: relative;
+.project-inicio-pg .logo-img {
+  width: 24px;
+  height: 24px;
 }
-
-
 
 /* ====================== */
 /* ------Butões---------- */
@@ -46,7 +64,7 @@
   color: white;
 }
 
-.flex-button-projects{
+.flex-button-projects {
   justify-content: end;
   margin-bottom: 90px;
   width: 25.81%;
@@ -87,8 +105,14 @@
 /* =============================== */
 /* --------Título e Texto------------------ */
 
+.text-project {
+  margin-top: 50px;
+  width: 80%;
+  position: absolute;
+}
+
 .title-projects {
-  font-size: 40px;
+  font-size: 2.3em;
   line-height: 48px;
   font-weight: 700;
 }
@@ -98,22 +122,22 @@
   padding-bottom: 32px;
 }
 
-.logo-project{
+.logo-project {
   display: flex;
 }
 
-.logo-project p{
+.logo-project p {
   margin-left: 24px;
   color: #5468e7;
   font-weight: 600;
 }
 
-.logo-project{
-color: #5468e7;
-font-weight: 600;
+.logo-project {
+  color: #5468e7;
+  font-weight: 600;
 }
 
-.titulo-pg-project{
+.titulo-pg-project {
   margin-bottom: 40px;
   margin-top: 24px;
   font-weight: 700;
@@ -127,30 +151,30 @@ font-weight: 600;
 
 .bg-projects {
   bottom: 0;
-  right: 128px ;
+  right: 128px;
   position: absolute;
   z-index: -1;
 }
 
-.img-bg-position {
-  position: relative;
-}
-
 .female-running-projects {
-  position: relative;
-  left: -90px;
-  bottom: -60px;
+  background-image: url(/img/layout-4/Component\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  margin-left: 23%;
+  z-index: -1;
+  width: 48%;
+  height: 800px;
+  min-width: 550px;
+  max-width: 700px;
 }
-
 .shadow-projects {
   max-width: none;
   position: absolute;
-  right: 100px;
-  top: -150px;
+  right: 50px;
+  top: -290px;
   z-index: -2;
 }
-
-
 
 /* ========================================= */
 /* ----------------Segunda parte da Página- */
@@ -172,15 +196,17 @@ font-weight: 600;
 .flex-bento {
   justify-content: space-between;
   display: flex;
+  width: 81.25%;
+  margin: auto;
 }
 
 .bento-3d {
-  margin-left: 135px;
+  width: 50%;
   padding-top: 341px;
 }
 
 .bento-vol2 {
-  margin-right: 55px;
+  width: 50%;
   right: 0px;
   padding-top: 46px;
 }
@@ -189,6 +215,12 @@ font-weight: 600;
 
 .img-computer {
   position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-bentovol2{
+  margin-left: 35%;
 }
 
 /* .bg-bento-roxo{
@@ -201,26 +233,24 @@ font-weight: 600;
 .main-img {
   top: 50px;
   left: -160px;
-  position: absolute;
 }
 
 .seta-bento-img {
   bottom: 60px;
-  left: 334px;
+  left: 94.5%;
   position: absolute;
 }
 
 /* -------Posicionamento Bento 3D----- */
 
 .img-tablet {
+  width: 100%;
   padding-bottom: 40px;
   position: relative;
 }
 
 .tablet-img {
   bottom: 100px;
-  left: -5px;
-  position: absolute;
 }
 
 .seta-bento-3d {
@@ -239,17 +269,19 @@ font-weight: 600;
 /* --------Posiocionamento Vol. 3------ */
 
 .seta-bento-vol3 {
+  position: relative;
+  width: 64px;
   margin-left: -37px;
   margin-bottom: 50px;
 }
 
 .music-img {
   padding-top: 70px;
-  position: absolute;
+  position: relative;
 }
 
 /* -----------Texto segunda pterceira parte-- */
 
-.bento-title-sapiens{
+.bento-title-sapiens {
   padding-bottom: 40px;
 }

@@ -146,6 +146,7 @@ img {
 }
 
 .img-hero {
+  width: 60.58%;
   max-width: 100%;
   z-index: 2;
 }
