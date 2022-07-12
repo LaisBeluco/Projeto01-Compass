@@ -87,3 +87,12 @@ height: 103px;
   font-weight: 700;
   line-height: 40px;
 }
+
+/* ===================================================================== */
+/* -----------------------Linha---------------------------------------- */
+
+.linha-hello{
+  background-image: url(/img/layout-7/line\ 2\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position-x: 85px;
+}

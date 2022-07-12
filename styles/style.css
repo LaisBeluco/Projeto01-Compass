@@ -136,6 +136,7 @@ img {
 }
 
 .titulo-folio {
+  white-space: nowrap;
   color: #232340;
 }
 
@@ -145,17 +146,13 @@ img {
   font-weight: 700;
 }
 
-.img-hero {
-  width: 60.58%;
-  max-width: 100%;
-  z-index: 2;
+.img-bg{
+  max-height: 722px;
+  max-width: 783.5px;
+  width: auto;
+  height: auto;
 }
-.img-bg {
-  z-index: 1;
-  top: -20px;
-  right: 30px;
-  position: absolute;
-}
+
 
 .text-pd {
   margin-top: 40px;
@@ -204,7 +201,7 @@ img {
 /* ----------------------------Linha Header---------------------------------- */
 
 .background-linha-header {
-  background-image: url(/img/line-1.png);
+  background-image: url(/img/layout-6/Path.png);
   background-repeat: no-repeat;
   background-position: 300px -19px; 
 }
@@ -212,13 +209,13 @@ img {
 /* -------------------------------------------------------------------------- */
 
 .linha-do {
-  background-image: url(/img/layout-3/line\ 2.png);
+  background-image: url(/img/layout-6/Path.png);
   background-repeat: no-repeat;
   background-position: 150px 0px;
 }
 
 .linha-do-achi {
-  background-image: url(/img/layout-3/line\ 1.png);
+  background-image: url(/img/line-1.png);
   background-repeat: no-repeat;
   background-position-y: 900px;
   background-position-x: 1000px;

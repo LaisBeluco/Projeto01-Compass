@@ -1,5 +1,11 @@
+:root{
+  --seta-size: 12%;
+}
+
+
 /* ======================= */
 /* ----Arrumando Flex----- */
+
 
 .flex-titulo-projects {
   padding-bottom: 40px;
@@ -28,7 +34,8 @@
   position: relative;
   display: flex;
   padding-top: 139px;
-  height: 800px;
+  padding-bottom: 130px;
+  height: 550px;
 }
 
 .project-inicio-female-running {
@@ -164,7 +171,8 @@
   margin-left: 23%;
   z-index: -1;
   width: 48%;
-  height: 800px;
+  height: 500px;
+  padding-bottom: 130px;
   min-width: 550px;
   max-width: 700px;
 }
@@ -201,12 +209,13 @@
 }
 
 .bento-3d {
+  display: flex;
+  flex-direction: column;
   width: 50%;
   padding-top: 341px;
 }
 
 .bento-vol2 {
-  width: 50%;
   right: 0px;
   padding-top: 46px;
 }
@@ -219,10 +228,12 @@
   flex-direction: column;
 }
 
-.title-bentovol2{
+.title-bentovol2 {
   margin-left: 35%;
 }
-
+.title-bentovol3 {
+  margin-left: 15%;
+}
 /* .bg-bento-roxo{
   bottom: 25px;
   left: 0;
@@ -236,11 +247,22 @@
 }
 
 .seta-bento-img {
+  width: var(--seta-size);
+  max-width: 65px;
+  min-width: 55px;
+  position:inherit;
   bottom: 60px;
   left: 94.5%;
   position: absolute;
 }
-
+.seta-bento-vol3-img {
+  width: var(--seta-size);
+  max-width: 65px;
+  min-width: 55px;
+  bottom: 60px;
+  left: 77.5%;
+  position: absolute;
+}
 /* -------Posicionamento Bento 3D----- */
 
 .img-tablet {
@@ -249,21 +271,30 @@
   position: relative;
 }
 
-.tablet-img {
-  bottom: 100px;
-}
-
-.seta-bento-3d {
-  bottom: 100px;
-  left: 438px;
+.seta-bento-img {
+  left: 94.5%;
   position: absolute;
 }
 
 /* -------Posicionamento Sapiens ------- */
 
+.seta-bento-3d {
+  margin-left: -5.5%;
+  position:absolute;
+  bottom: 20%;
+  width: var(--seta-size);
+  max-width: 65px;
+  min-width: 55px;
+
+}
+
 .seta-bento-sapiens {
-  margin-left: -37px;
-  margin-bottom: 50px;
+  margin-left: -5.5%;
+  position:absolute;
+  bottom: 20%;
+  width: var(--seta-size);
+  max-width: 65px;
+  min-width: 55px;
 }
 
 /* --------Posiocionamento Vol. 3------ */
@@ -284,4 +315,34 @@
 
 .bento-title-sapiens {
   padding-bottom: 40px;
+}
+
+/* ============================================================== */
+/* ----------------------------Linhas--------------------------- */
+
+.img-bg-position{
+  background-image: url(/img/layout-4/line\ 2\ \(2\).png);
+  background-repeat: no-repeat;
+  background-position-y: 390px;
+}
+
+.linha-bento{
+  background-image: url(/img/layout-4/line\ 1\ \(1\).svg);
+  background-repeat: no-repeat;
+  background-position-x: 590px;
+  background-position-y: 800px;
+  background-size: 750px;
+}
+
+/* ------------------------------------------------------------ */
+
+
+
+@media (max-width: 1026px){
+.titulo-pg-project{
+  font-size: 74px;
+}
+.paragrafo-pg-are {
+  font-size: 16px;
+}
 }
