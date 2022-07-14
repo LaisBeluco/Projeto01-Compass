@@ -51,13 +51,13 @@ img {
 
 .menu-folio {
   height: 64px;
-  padding-top: 54px;
-  padding-bottom: 54px;
-  margin: 0px 72px;
-  /* padding: 0 4px; */
+  padding: 54px 0px;
   display: flex;
   justify-content: space-between;
+  width: 90%;
+  max-width: 1295px;
   align-items: center;
+  margin: auto;
 }
 
 .menu-folio:focus {
@@ -72,18 +72,6 @@ img {
   display: flex;
   margin-left: 54px;
 }
-
-/* -----------------------------Position Fixed-------------------- */
-
-/* .menu-folio{
-  background: white;
-  width: 90%;
-  position: fixed;
-  z-index: 10;
-  border-radius: 10px;
-} */
-
-/* -------------------------------------------------------------- */
 
 .folio-logo li a {
   margin-left: 16px;
