@@ -1,1 +1,55 @@
-@import '_variaveis';
+@import "_variaveis";
+
+.header-folio {
+  height: 64px;
+  width: 90%;
+  max-width: 1295px;
+  margin: auto;
+  padding: 5.4rem 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .header-logo {
+    display: flex;
+    align-items: center;
+    li {
+      a {
+        margin-left: 1.6rem;
+        color: $text-color-black;
+        font-size: 3rem;
+        text-decoration: none;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .header-folio-menu {
+    display: flex;
+    li {
+      display: flex;
+      margin-left: 5.4rem;
+      a {
+        text-decoration: none;
+        color: $text-color-cinza;
+      }
+      a:hover {
+        color: $color-light-blue;
+      }
+    }
+    img {
+      top: -1.5rem;
+      right: -0.6rem;
+      position: relative;
+    }
+  }
+
+  .button-us {
+    font-weight: bolder;
+    font-size: 1.8rem;
+    padding: 20px 44px;
+    background-color: $text-color-blue;
+    border-radius: 8px;
+    border: none;
+    color: $text-color-white;
+  }
+}
